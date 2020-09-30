@@ -160,7 +160,7 @@ i:nth-child(20) {
 
 .hash {
   color: white;
-  font-size: 18px;
+  font-size: 22px;
   padding-top: 20%;
   text-align: center;
 }
@@ -221,7 +221,7 @@ a {
 
 .main-desc p {
   width: 30%;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .form {
@@ -273,7 +273,7 @@ legend {
 .form-style-5 input[type="text"],
 .form-style-5 input[type="date"],
 .form-style-5 input[type="datetime"],
-.form-style-5 input[type="email"],
+.form-style-5 input[type="telephone"],
 .form-style-5 input[type="number"],
 .form-style-5 input[type="search"],
 .form-style-5 input[type="time"],
@@ -358,7 +358,7 @@ h4 {
 }
 
 .desc-main {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 footer {
@@ -375,11 +375,20 @@ footer {
   width: 450px;
   padding: 20px;
   margin: 20px auto;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .descmain {
   border: 1px solid white;
   width: 600px;
   margin: 100px auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.desc-h4 {
+  margin-bottom: -20px;
+  margin-top: 150px;
 }
