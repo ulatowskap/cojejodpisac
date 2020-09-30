@@ -392,3 +392,37 @@ html {
   margin-bottom: -20px;
   margin-top: 150px;
 }
+
+@media (max-width: 900px) {
+  .desc-main {
+    font-size: 18px;
+  }
+
+  .main-desc p {
+    width: 70%;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .hash {
+    padding-top: 45%;
+  }
+
+  .main-desc-rev p {
+    width: 70%;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  .main-desc {
+    flex-direction: column;
+  }
+
+  .main-desc-rev {
+    flex-direction: column;
+  }
+}
