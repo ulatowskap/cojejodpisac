@@ -205,7 +205,7 @@ a {
 }
 
 .kolaz {
-  height: 300px;
+  height: 450px;
   opacity: 0.6;
   margin-left: 40px;
 }
@@ -241,6 +241,8 @@ a {
 .main-desc-rev p {
   width: 30%;
   color: white;
+  padding-left: 20px;
+  text-align: right;
 }
 
 /*formularz*/
@@ -381,7 +383,7 @@ footer {
 .descmain {
   border: 1px solid white;
   width: 600px;
-  margin: 100px auto;
+  margin: 200px auto 100px;
 }
 
 html {
