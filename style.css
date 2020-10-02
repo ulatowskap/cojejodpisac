@@ -397,7 +397,7 @@ html {
 
 @media (max-width: 900px) {
   .desc-main {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .main-desc p {
@@ -414,6 +414,7 @@ html {
     width: 70%;
     margin-bottom: 100px;
     text-align: center;
+    margin-top: 35px;
   }
 
   h4 {
@@ -422,9 +423,44 @@ html {
 
   .main-desc {
     flex-direction: column;
+    margin-top: 80px;
   }
 
   .main-desc-rev {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    margin-top: 80px;
+  }
+
+  i:nth-child(even) {
+    display: none;
+  }
+
+  .desc-h4 {
+    margin-top: 80px;
+  }
+
+  .kolaz {
+    margin-bottom: 30px;
+    margin-left: 0;
+    height: 220px;
+  }
+
+  .main-desc-rev img {
+    height: 450px;
+  }
+
+  .kolaz.photo {
+    height: 450px;
+  }
+
+  .descmain {
+    width: 300px;
+    border: none;
+    margin: 100px auto 100px;
+  }
+
+  .howitworks {
+    width: 310px;
+    padding: 0;
   }
 }
